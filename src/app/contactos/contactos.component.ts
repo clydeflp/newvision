@@ -41,7 +41,7 @@ export class ContactosComponent {
               let mensaje = mensajeElement ? mensajeElement.value.trim() : '';
   
               if (!nombre || !apellido || !email || !direccion || !telefono) {
-                  alert('Por favor, complete todos los campos obligatorios.');
+                  alert('Please fill out all required fields.');
                   return;
               }
   
